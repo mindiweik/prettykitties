@@ -33,6 +33,7 @@ function App() {
     catCall(numDisplay);
   }, [clicked, numDisplay]);
 
+  
   return (
     <div className="App">
       <header className="App-header">
