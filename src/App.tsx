@@ -32,7 +32,6 @@ function App() {
   useEffect((): void => {
     catCall(numDisplay);
   }, [clicked, numDisplay]);
-
   
   return (
     <div className="App">
