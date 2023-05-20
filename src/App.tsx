@@ -25,7 +25,7 @@ function App() {
         setCatPics(cat.data);
       })
       .catch((err) => {
-        throw new Error("No cat data", err);
+        throw new Error("No cat data/error in cat data");
       });
   };
 
